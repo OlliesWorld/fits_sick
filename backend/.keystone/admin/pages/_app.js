@@ -4,30 +4,30 @@ import { KeystoneProvider } from '@keystone-next/admin-ui/context';
 import { ErrorBoundary } from '@keystone-next/admin-ui/components';
 import { Core } from '@keystone-ui/core';
 
-import * as viewc0fed347 from '../../../node_modules/@keystone-next/fields/types/mongoId/views';
-import * as viewb5eec83e from '../../../node_modules/@keystone-next/fields/types/text/views';
-import * as viewaad699c7 from '../../../node_modules/@keystone-next/fields/types/password/views';
-import * as view29bccf50 from '../../../node_modules/@keystone-next/fields/types/relationship/views';
-import * as viewc7c361ac from '../../../node_modules/@keystone-next/fields/types/timestamp/views';
-import * as view156c17ec from '../../../node_modules/@keystone-next/fields/types/select/views';
-import * as view49455ece from '../../../node_modules/@keystone-next/fields/types/integer/views';
-import * as view0d0578dc from '../../../node_modules/@keystone-next/cloudinary/views';
-import * as view2a2be8ab from '../../../node_modules/@keystone-next/fields/types/virtual/views';
-import * as viewa1a50c16 from '../../../node_modules/@keystone-next/fields/types/checkbox/views';
+import * as viewe5ba9f9a from '../../../node_modules/@keystone-next/fields/types/mongoId/views';
+import * as view9c43d8d0 from '../../../node_modules/@keystone-next/fields/types/text/views';
+import * as view31f507f4 from '../../../node_modules/@keystone-next/fields/types/password/views';
+import * as view365f7e4c from '../../../node_modules/@keystone-next/fields/types/relationship/views';
+import * as view34150102 from '../../../node_modules/@keystone-next/fields/types/timestamp/views';
+import * as view0f250ce1 from '../../../node_modules/@keystone-next/fields/types/select/views';
+import * as view1246628b from '../../../node_modules/@keystone-next/fields/types/integer/views';
+import * as viewa39c2708 from '../../../node_modules/@keystone-next/cloudinary/views';
+import * as view70a68683 from '../../../node_modules/@keystone-next/fields/types/virtual/views';
+import * as viewdf6c8bab from '../../../node_modules/@keystone-next/fields/types/checkbox/views';
 
 const adminConfig = {};
 
 const fieldViews = {
-  viewc0fed347,
-  viewb5eec83e,
-  viewaad699c7,
-  view29bccf50,
-  viewc7c361ac,
-  view156c17ec,
-  view49455ece,
-  view0d0578dc,
-  view2a2be8ab,
-  viewa1a50c16,
+  viewe5ba9f9a,
+  view9c43d8d0,
+  view31f507f4,
+  view365f7e4c,
+  view34150102,
+  view0f250ce1,
+  view1246628b,
+  viewa39c2708,
+  view70a68683,
+  viewdf6c8bab,
 };
 
 const lazyMetadataQuery = {
@@ -202,7 +202,7 @@ export default function App({ Component, pageProps }) {
     <Core>
       <KeystoneProvider
         adminConfig={adminConfig}
-        adminMetaHash="1baqbmd"
+        adminMetaHash="zdlxvy"
         fieldViews={fieldViews}
         lazyMetadataQuery={lazyMetadataQuery}
       >
